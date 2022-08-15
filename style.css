@@ -119,7 +119,7 @@ left: 100px;
     text-align: center;
     width: 400px;
 position: relative;
-left: 550px;
+left: 35vw;
 }
 
 /* cards */
@@ -229,3 +229,298 @@ left: 550px;
 .bgc{
     padding: 25px 5px;
 }
+
+@media screen and (max-width:1453px){
+
+    .top-right img{
+        width: 500px;
+        position: relative;
+        left: 200px;
+        top:110px;
+        }
+
+
+        .top-left h1{
+            
+            font-size: 3.5em;
+            
+            top: 210px;
+            }
+
+            .top-left p{
+                
+                top: 230px;
+                line-height: 2em;
+               
+            }
+    
+    
+}
+
+@media screen and (max-width:1200px) {
+    .top{
+       flex-direction: column;
+       
+        
+    }
+
+    .top-left h1{
+            
+        font-size: 3.5em;
+        
+        top:30px;
+        left: 25vw;
+
+        font-size: 3em;
+        }
+
+        .top-left p{
+                
+            top:30px;
+            left: 25vw;
+            line-height: 1em;
+            
+           
+        }
+
+
+        .top-right img{
+
+            left: 25vw;
+            top: 80px;
+            width: 450px;
+            height: 300px;
+            
+            }
+
+           .right{
+            display: none;
+           }
+
+
+           .left img{
+            
+            left: 20vw;
+            }
+    
+}
+
+
+@media screen and (max-width:800px) {
+
+    .top-left h1{
+            
+        left: 170px;
+    }
+
+    .top-left p{
+                
+        
+        left: 170px;
+        
+        
+       
+    }
+
+    .top-right img{
+
+        left: 100px;
+        
+        
+    }
+
+    .left img{
+            
+        left: 100px;
+        width: 400px;
+    }
+
+
+    .h{
+        left:25vw;
+    }
+
+    ul{
+        width: 300px;
+    }
+
+
+
+    
+}
+
+
+@media  screen and (max-width:726px) {
+
+
+
+
+    .top-left h1{
+            
+        left: 110px;
+        font-size: 2.5em;
+    }
+
+    .top-left p{
+                
+        
+        left: 110px;
+        
+        
+       
+    }
+
+    .top-right img{
+
+        left: 110px;
+        
+        
+    }
+
+    .left img{
+            
+        left: 100px;
+        width: 400px;
+    }
+
+
+    .h{
+        left:25vw;
+    }
+
+    ul{
+        width: 300px;
+    }
+
+    nav button{
+        display: none;
+    }
+    
+}
+
+@media screen and (max-width:650px) {
+
+    .cards{
+        flex-direction: column;
+        align-items: center;
+    }
+    .card1{
+        display: none;
+    }
+
+    .a{
+        margin: 10px;
+
+    }
+
+    .top-left p{
+        width: 300px;
+       
+    }
+
+    .left img{
+            
+        left: 0px;
+        
+    }
+
+    .top-right img{
+
+        left: 50px;
+        
+        
+    }
+    
+}
+
+@media screen and (max-width:572px) {
+
+
+    .banner{
+        
+        padding: 30px 20px;
+        height: 100vh;
+        
+        
+    }
+    
+
+
+    .top-left h1{
+            
+       left: 50px;
+       font-size: 1.5em;
+       width: 200px;
+    }
+
+
+    .top-left p{
+                
+        
+        left: 50px;
+        top:60px
+        
+        
+       
+    }
+
+    .top-right img{
+
+        left: 20px;
+        width: 250px;
+        
+        
+        
+    }
+
+    
+    ul{
+        
+        width: 200px;
+    }
+
+    .left img{
+            
+        width: 250px;
+        
+    }
+
+
+    .h{
+        left:10vw;
+        font: 1em;
+        width: 200px;
+    }
+
+
+}
+
+@media screen and (max-width:450px) {
+
+
+    .top-left p{
+                
+        
+    width: 200px;
+        
+        
+       
+    }
+    ul{
+        display: none;
+    }
+
+
+    .left img{
+            
+       display: none;
+        
+    }
+
+    .cards{
+padding: 0px;
+position: relative;
+left: -50px;
+    }
+}
+
