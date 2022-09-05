@@ -13,7 +13,7 @@ The key new things which i learned are:
 - Stucturing web page using **html**
 
 Live-Link for this project
-**[project-13](https://live-project-13.netlify.app " Netlify")**
+**[project-13](https://projecr-13.netlify.app/ " Netlify")**
 
 ___
 
